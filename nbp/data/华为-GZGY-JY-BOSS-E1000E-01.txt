@@ -1,0 +1,816 @@
+<GZGY-JY-BOSS-E1000E-01>
+<GZGY-JY-BOSS-E1000E-01>
+<GZGY-JY-BOSS-E1000E-01>dis
+<GZGY-JY-BOSS-E1000E-01>display ve
+<GZGY-JY-BOSS-E1000E-01>display version 
+17:32:39  2015/09/22
+Huawei Versatile Routing Platform Software
+Software Version: Eudemon 1000E V100R002C01SPC012  (VRP (R) Software, Version 3.30)
+Copyright (C) 2008-2010 Huawei Technologies Co., Ltd.
+Quidway Eudemon1000E-U6 uptime is 262 weeks, 0 day, 4 hours, 12 minutes
+
+RPU's Version Information:
+2048M     bytes SDRAM
+  64M     bytes FLASH
+ 128K     bytes NVRAM
+PCB       Version : VER.B
+RPE Logic Version : 005B
+Small BootROM  Version : 025 Oct 12 2009
+Big   BootROM  Version : 041 Apr 22 2010
+Slot1:  2GE     (PCB)VER.A  (Software)000  (Logic)000  (Board)SUP1E2GE    
+Slot2:  2GE     (PCB)VER.A  (Software)000  (Logic)000  (Board)SUP1E2GE    
+
+<GZGY-JY-BOSS-E1000E-01>
+<GZGY-JY-BOSS-E1000E-01>
+<GZGY-JY-BOSS-E1000E-01>dis cur
+<GZGY-JY-BOSS-E1000E-01>dis current-configuration 
+17:32:41  2015/09/22
+#
+ip address-set kefu2
+ address 0 135.11.40.3 0
+ address 1 135.11.40.4 0
+ address 2 135.11.40.7 0
+ address 3 135.11.40.8 0
+ address 4 135.11.40.9 0
+ address 5 135.11.40.10 0
+ address 6 135.11.40.11 0
+ address 7 135.11.40.12 0
+ip address-set xunjiewaibao
+ address 0 172.19.1.0 0.0.0.255
+ip address-set venus4a
+ address 0 135.10.29.153 0
+ address 1 135.10.29.156 0
+ address 2 135.10.29.159 0
+ address 3 135.10.29.230 0
+ address 4 135.10.29.235 0
+ address 5 135.10.53.8 0 "cs.crm.gzcmcc.com "
+ address 6 135.10.53.18 0 "sso.crm.gzcmcc.com"
+ address 7 135.10.53.7 0
+ address 8 135.10.52.7 0
+ address 9 135.10.38.185 0
+ address 10 135.10.51.47 0                
+ address 11 135.10.27.43 0
+ address 12 135.10.52.18 0
+ address 13 135.10.52.17 0
+ address 14 135.10.53.20 0
+ address 15 135.10.53.21 0
+ address 16 135.10.52.16 0
+ address 17 135.10.27.42 0
+ address 18 135.10.29.150 0
+ address 19 135.10.52.9 0
+ip address-set guiyangzhaohang
+ address 0 192.168.45.223 0
+ip address-set anshunshanghang
+ address 0 192.168.97.31 0
+ip address-set bank1
+ address 0 10.10.1.158 0
+ address 1 10.10.2.10 0
+ address 2 10.10.2.11 0
+ address 3 10.252.128.251 0
+ address 4 10.252.128.253 0
+ address 5 144.180.70.50 0
+ address 6 15.68.6.100 0
+ address 7 16.123.66.31 0
+ address 8 26.156.253.70 0                
+ address 9 90.90.90.77 0
+ address 10 10.10.2.53 0
+ address 11 10.10.2.62 0
+ address 12 192.168.46.5 0
+ address 13 9.234.21.202 0
+ address 14 192.168.45.130 0
+ address 15 192.168.45.223 0
+ address 16 192.168.97.31 0
+ address 17 192.168.93.82 0
+ address 18 11.180.254.107 0
+ address 1001 10.108.202.0 0.0.0.255
+ip address-set bankserver1
+ address 0 135.10.27.103 0
+ address 1 135.10.27.106 0
+ address 2 135.10.27.109 0
+ip address-set webserver1
+ address 0 135.10.27.100 0
+ address 1 135.10.27.110 0
+ip address-set audit4a1
+ address 0 135.10.29.210 0
+ address 1 135.10.29.211 0
+ address 2 135.10.29.216 0
+ address 3 135.10.62.210 0                
+ address 4 135.10.62.211 0
+ address 5 135.31.33.41 0
+ip address-set whiltelist1
+ address 0 135.10.21.30 0
+ address 1 135.10.21.63 0
+ address 2 135.31.34.242 0
+ip address-set localaddress1
+ address 0 135.10.27.244 0
+ address 1 135.31.33.42 0
+ address 2 135.10.27.243 0
+ address 3 135.31.33.50 0
+ip address-set ntpserver1
+ address 0 135.10.26.181 0
+ address 1 135.10.26.182 0
+ address 2 135.10.25.183 0
+ address 3 135.10.25.106 0
+ip address-set hujiaowaibao1
+ address 0 172.16.3.0 0.0.0.255
+ address 1001 172.19.1.0 0.0.0.255
+ address 1002 172.19.2.0 0.0.0.255
+ address 1003 172.19.3.0 0.0.0.255
+ address 1004 172.19.4.0 0.0.0.255
+ address 1005 172.19.5.0 0.0.0.255        
+ address 1006 172.19.6.0 0.0.0.255
+ address 1007 172.19.7.0 0.0.0.255
+ address 1008 172.19.8.0 0.0.0.255
+ address 1009 172.19.9.0 0.0.0.255
+ address 1010 172.19.10.0 0.0.0.255
+ address 1011 172.19.11.0 0.0.0.255
+ address 1012 172.19.12.0 0.0.0.255
+ip address-set kefu1
+ address 1 135.11.47.3 0
+ address 2 135.11.47.4 0
+ address 3 135.11.47.8 0
+ address 4 135.11.47.9 0
+ address 5 135.11.47.10 0
+ address 6 135.11.47.11 0
+ address 7 135.11.47.12 0
+ address 8 135.11.40.3 0
+ address 9 135.11.40.4 0
+ address 10 135.11.40.8 0
+ address 11 135.11.40.9 0
+ address 12 135.11.40.10 0
+ address 13 135.11.40.11 0
+ address 14 135.11.40.12 0
+ address 15 135.11.40.7 0                 
+ address 101 135.11.48.10 0
+ address 102 135.11.48.17 0
+ address 103 135.11.48.18 0
+ address 104 135.11.48.19 0
+ address 105 135.11.48.20 0
+ address 106 135.11.48.21 0
+ address 107 135.11.48.22 0
+ address 1023 135.11.41.0 0.0.0.255
+ip address-set layer4
+ address 0 135.10.27.25 0
+ address 1 135.10.27.26 0
+ address 2 135.10.27.30 0
+ address 3 135.10.27.31 0
+ address 4 135.10.27.32 0
+ address 5 135.10.27.33 0
+ address 6 135.10.27.34 0
+ address 7 135.10.27.35 0
+ address 8 135.10.27.36 0
+ address 9 135.10.27.37 0
+ address 10 135.10.27.38 0
+ address 11 135.10.27.39 0
+ address 12 135.10.27.40 0
+ address 13 135.10.27.41 0                
+ address 14 135.10.27.42 0
+ address 15 135.10.52.18 0
+ address 16 135.10.52.25 0
+ip address-set msrdp1
+ address 0 135.10.27.166 0
+ address 1 135.10.27.83 0
+ address 2 135.10.27.84 0
+ address 3 135.10.27.85 0
+ address 4 135.10.27.167 0
+ address 5 135.10.27.205 0
+ address 6 135.10.27.206 0
+ address 7 135.10.27.207 0
+ip address-set syslogto4a1
+ address 0 135.10.35.107 0
+ address 1 135.10.35.108 0
+ip address-set ntpsrcadress1
+ address 0 135.10.35.107 0
+ address 1 135.10.35.108 0
+ address 3 135.10.27.242 0
+ip address-set ne20pass
+ address 0 135.10.35.107 0
+ address 1 135.10.35.108 0
+ip address-set nonghang                   
+ address 0 10.10.2.10 0
+ip address-set xiaoyuanhujiaodizi
+ address 0 172.19.2.1 0
+ address 1 172.19.2.29 0
+ address 3 172.19.2.100 0
+ address 5 172.19.9.0 0.0.0.255
+ip address-set recordftp
+ address 0 135.11.40.22 0
+ address 1 135.11.47.22 0
+ address 2 135.11.47.27 0
+ address 3 135.10.51.33 0
+ address 4 135.11.40.26 0
+ip address-set banktest201211
+ address 0 9.238.3.202 0
+ address 1 192.168.93.65 0
+ address 2 9.234.3.202 0
+ address 3 90.90.90.251 0
+ address 4 192.168.45.215 0
+ address 5 10.10.2.62 0
+ address 6 192.168.45.222 0
+ address 7 26.156.253.125 0
+ address 8 15.68.6.51 0
+ address 9 16.123.66.15 0                 
+ address 10 10.10.3.61 0
+ address 11 10.10.30.61 0
+ address 12 10.10.2.11 0
+ address 13 10.110.0.101 0
+ address 14 135.31.33.43 0
+ address 15 26.156.253.70 0
+ address 16 9.234.21.202 0
+ address 17 144.180.70.50 0
+ address 18 10.10.2.10 0
+ address 19 192.168.45.130 0
+ address 20 10.10.1.158 0
+ address 21 10.10.2.53 0
+ address 22 10.252.128.251 0
+ address 23 15.68.6.100 0
+ address 24 10.252.128.253 0
+ address 25 16.123.66.31 0
+ address 26 90.90.90.77 0
+ address 27 192.168.46.5 0
+ address 28 192.168.45.223 0
+ address 29 192.168.97.31 0
+ address 30 192.168.93.82 0
+ address 31 10.108.202.0 0.0.0.255
+ address 32 10.110.80.31 0                
+ address 33 15.68.6.52 0
+ address 34 98.3.8.7 0
+ address 35 98.3.8.4 0
+ip address-set crmkefuwaibaoweb
+ address 0 135.10.27.59 0
+ address 1 135.10.27.64 0
+ip address-set nczuoxi
+ address 0 135.10.27.167 0
+ address 1 135.10.27.83 0
+ address 2 135.10.27.84 0
+ address 3 135.10.27.85 0
+ address 4 172.19.2.0 0.0.0.255
+ address 5 135.10.27.205 0
+ address 6 135.10.27.206 0
+ address 7 135.10.27.207 0
+ip address-set timeserver
+ address 0 135.10.25.181 0
+ address 1 135.10.25.182 0
+ address 2 135.10.25.183 0
+ip address-set crmkefuwaibaoapp
+ address 0 135.10.50.44 0
+ address 1 135.10.50.67 0
+ address 2 135.10.50.68 0                 
+ address 3 135.10.50.69 0
+ address 4 135.10.50.74 0
+ address 5 135.10.50.75 0
+ address 6 135.10.50.76 0
+ address 7 135.10.50.77 0
+ address 8 135.10.50.82 0
+ address 9 135.10.50.83 0
+ address 10 135.10.50.84 0
+ address 11 135.10.50.85 0
+ address 12 135.10.50.91 0
+ address 13 135.10.50.92 0
+ address 14 135.10.50.93 0
+ address 15 135.10.50.99 0
+ address 16 135.10.50.100 0
+ address 17 135.10.50.106 0
+ address 18 135.10.51.57 0
+ address 19 135.10.51.58 0
+ address 20 135.10.51.59 0
+ address 21 135.10.51.60 0
+ address 22 135.10.51.65 0
+ address 23 135.10.51.66 0
+ address 24 135.10.51.67 0
+ address 25 135.10.51.68 0                
+ address 26 135.10.51.71 0
+ address 27 135.10.51.73 0
+ address 28 135.10.51.74 0
+ address 29 135.10.51.75 0
+ address 30 135.10.51.80 0
+ address 31 135.10.51.81 0
+ address 32 135.10.51.82 0
+ address 33 135.10.51.83 0
+ address 34 135.10.51.84 0
+ address 35 135.10.51.90 0
+ip address-set crmwaibujiekou
+ address 0 135.10.27.56 0
+ address 1 135.10.27.62 0
+ address 2 135.10.27.57 0
+ address 3 135.10.27.63 0
+ address 4 135.10.27.58 0
+ip address-set crmkefuwaibaoweb2
+ address 0 135.10.27.55 0
+ address 1 135.10.27.61 0
+ip address-set crmkefuwaibaoapp2
+ address 0 135.10.51.62 0
+ address 1 135.10.50.94 0
+ address 2 135.10.51.70 0                 
+ address 3 135.10.50.102 0
+ address 4 135.10.51.77 0
+ address 5 135.10.50.72 0
+ address 6 135.10.51.86 0
+ address 7 135.10.51.63 0
+ip address-set banklayer4
+ address 0 135.10.27.44 0
+ip address-set sipserver
+ address 0 135.11.48.10 0
+ address 1 135.11.41.10 0
+ip address-set messageserver
+ address 0 135.10.53.46 0
+ address 1 135.10.52.53 0
+ address 2 135.10.53.10 0
+ip address-set logserver
+ address 0 135.10.53.46 0
+ address 1 135.10.52.53 0
+ address 2 135.10.53.37 0
+ address 3 135.10.52.42 0
+ address 4 135.10.53.41 0
+ address 5 135.10.52.49 0
+ip address-set banktests201211
+ address 0 10.252.128.253 0               
+ip address-set banktest2011
+ip address-set banktest2012
+ip address-set ctlpool1
+ address 0 135.11.47.33 0
+ address 1 135.11.47.34 0
+ address 2 135.11.47.35 0
+ address 3 135.11.47.36 0
+ address 4 135.11.40.33 0
+ address 5 135.11.40.34 0
+ address 6 135.11.40.35 0
+ address 7 135.11.40.36 0
+ip address-set ctlpool2
+ address 0 135.11.48.10 0
+ address 1 135.11.41.10 0
+ip address-set ctlpool3
+ address 0 135.11.48.17 0
+ address 1 135.11.48.18 0
+ address 2 135.11.48.19 0
+ address 3 135.11.48.20 0
+ address 4 135.11.48.21 0
+ address 5 135.11.48.22 0
+ address 6 135.11.48.23 0
+ address 7 135.11.41.17 0                 
+ address 8 135.11.41.18 0
+ address 9 135.11.41.19 0
+ address 10 135.11.41.20 0
+ address 11 135.11.41.21 0
+ address 12 135.11.41.22 0
+ address 13 135.11.41.23 0
+ip address-set kefuwas
+ address 0 135.11.47.33 0
+ address 1 135.11.40.33 0
+ip address-set hujiaowaibao2
+ address 0 172.19.1.0 0.0.0.255
+ address 1 172.19.2.0 0.0.0.255
+ address 2 172.19.3.0 0.0.0.255
+ address 3 172.19.4.0 0.0.0.255
+ address 4 172.19.5.0 0.0.0.255
+ address 5 172.19.6.0 0.0.0.255
+ address 6 172.19.7.0 0.0.0.255
+ address 7 172.19.8.0 0.0.0.255
+ address 8 172.19.9.0 0.0.0.255
+ address 9 172.19.11.0 0.0.0.255
+ address 10 172.19.12.0 0.0.0.255
+#
+ip port-set venus4aport protocol tcp      
+ port 0 eq 8080
+ port 1 eq 8089
+ port 2 eq www
+ port 3 eq 6627
+ port 4 eq 6379
+ port 5 eq 18000
+ port 6 eq 36009
+ port 7 eq ftp
+ port 8 eq 10111
+ port 9 eq 8081
+ port 10 eq 28081
+ port 11 eq 21000
+ port 12 eq domain
+ port 13 eq https
+ port 14 eq 8091
+ port 15 eq 9090
+ port 16 eq 19090
+ port 63 range 18080 18085
+ip port-set audit4aport1 protocol tcp
+ port 0 eq telnet
+ port 1 eq ssh
+ip port-set yingye1 protocol tcp          
+ port 0 eq 9000
+ port 1 eq 9100
+ port 2 range 9200 9202
+ port 3 range 9300 9301
+ port 4 eq 9400
+ip port-set webseverport1 protocol tcp
+ port 0 eq www
+ port 1 range 8081 8088
+ip port-set guiyangzhaohang protocol tcp
+ port 0 eq 5001
+ip port-set anshunshanghang protocol tcp
+ port 0 eq 6101
+ip port-set waibo protocol tcp
+ port 0 eq www
+ port 1 eq 8086
+ port 2 eq 8088
+ip port-set xiaoyuanhujiao protocol tcp
+ port 0 eq 9000
+ port 1 eq 9100
+ip port-set xiaoyuanport protocol tcp
+ port 0 eq 12000
+ port 1 eq 12100
+ port 2 eq 12200                          
+ port 3 eq 12300
+ port 4 eq 12400
+ip port-set portbanktest201211 protocol tcp
+ port 0 eq 42200
+ port 1 eq 42210
+ port 2 eq 42220
+ port 3 eq 42800
+ port 4 eq 42400
+ port 5 eq 44500
+ port 6 eq 44000
+ port 7 eq 42501
+ip port-set newcrm protocol tcp
+ port 0 eq 42200
+ port 1 eq 42210
+ port 2 eq 42220
+ port 3 eq 42300
+ port 4 eq 42400
+ port 5 eq 42500
+ port 6 eq 42600
+ port 7 eq 42700
+ port 8 eq 42800
+ port 9 eq 44201
+ip port-set crmwebfangwencrmapp protocol tcp
+ port 0 range 20101 21900
+ip port-set crmwebfangwenapp2 protocol tcp
+ port 0 range 20101 20500
+ip port-set bankport201301 protocol tcp
+ port 0 eq 44500
+ port 1 eq 44200
+ port 2 eq 44000
+ip port-set sipport protocol tcp
+ port 0 eq 5060
+ port 1 eq 5061
+ip port-set messageport protocol tcp
+ port 0 eq 40030
+ port 1 eq 36009
+ port 2 eq time
+ port 3 range 8081 8085
+ip port-set redisport protocol tcp
+ port 0 eq 6627
+ port 1 eq 6379
+ip port-set kefuwaibaoweb2port protocol tcp
+ port 0 eq 10411
+ port 1 eq 10416
+ port 2 eq 10421
+ port 3 eq 10426                          
+ port 4 eq 10431
+ port 5 eq 10436
+ port 6 eq 10441
+ port 7 eq 10446
+ port 9 eq 10451
+ port 10 eq 10456
+ port 11 eq 10461
+ port 12 eq 10466
+ port 13 eq 10471
+ port 14 eq 10476
+ port 15 eq 10481
+ port 16 eq 10486
+#
+acl number 3001
+acl number 3113
+ description yuanchengXZ
+ rule 0 permit ip source 135.10.29.210 0
+ rule 5 permit ip source 135.10.29.211 0
+ rule 10 permit ip source 135.10.29.216 0
+ rule 15 permit ip source 135.10.21.30 0
+ rule 20 permit ip source 135.10.21.63 0
+ rule 25 permit ip source 135.31.34.242 0
+ rule 30 permit ip source 135.10.29.158 0 
+ rule 45 permit ip source 135.10.38.146 0
+ rule 50 permit ip source 135.10.62.210 0
+ rule 55 permit ip source 135.10.62.211 0
+ rule 60 permit ip source 135.10.38.145 0
+ rule 70 permit ip source 135.31.33.41 0
+acl number 3120
+ rule 3000 permit ip
+acl number 3501
+ description trust-->local
+ rule 0 permit tcp source address-set audit4a1 destination address-set localaddress1 destination-port port-set audit4aport1
+ rule 10 permit tcp source address-set whiltelist1 destination address-set localaddress1 destination-port port-set audit4aport1
+ rule 21 permit ip source 135.10.38.146 0
+ rule 30 permit ip source 135.10.29.158 0
+ rule 35 permit udp source 135.10.38.133 0 destination-port eq snmp
+ rule 40 permit udp source 135.10.30.36 0 destination-port eq snmp
+ rule 90000 permit icmp source address-set audit4a1 destination address-set localaddress1
+ rule 90001 permit icmp source address-set whiltelist1 destination address-set localaddress1
+acl number 3502
+ description local-->trust
+ rule 0 permit ip
+acl number 3503
+ description untrust-->trust
+ rule 0 permit tcp destination address-set webserver1 destination-port port-set yingye1
+ rule 10 permit tcp source address-set bank1 destination address-set bankserver1 destination-port eq 6009
+ rule 20 permit tcp source 10.252.128.253 0 destination 135.10.27.109 0 destination-port eq 5009
+ rule 30 permit tcp source address-set bank1 destination address-set bankserver1 destination-port range ftp-data ftp
+ rule 35 permit tcp source address-set bank1 destination address-set bankserver1 destination-port eq 5016
+ rule 36 permit tcp source address-set bank1 destination address-set bankserver1 destination-port eq 5017
+ rule 41 permit udp source address-set hujiaowaibao1 destination address-set kefu1
+ rule 40 deny tcp source address-set hujiaowaibao1 destination address-set kefu1 destination-port eq 8888
+ rule 42 permit tcp source address-set hujiaowaibao1 destination address-set kefu2
+ rule 50 permit tcp source address-set hujiaowaibao1 destination address-set layer4
+ rule 51 permit tcp source address-set hujiaowaibao1 destination address-set layer4 destination-port eq www
+ rule 52 permit tcp source address-set hujiaowaibao1 destination address-set layer4 destination-port eq 8086
+ rule 53 permit tcp source address-set hujiaowaibao1 destination address-set layer4 destination-port eq 8088
+ rule 60 permit tcp destination address-set webserver1 destination-port port-set webseverport1
+ rule 70 permit tcp source address-set hujiaowaibao1 destination address-set msrdp1 destination-port eq 3389
+ rule 80 permit tcp source address-set hujiaowaibao1 destination 135.10.27.82 0 destination-port eq www
+ rule 90 permit tcp source address-set hujiaowaibao1 destination 135.10.27.106 0 destination-port eq time
+ rule 91 permit tcp source address-set xunjiewaibao destination 135.10.27.31 0 destination-port eq 9000
+ rule 92 permit tcp source address-set hujiaowaibao1 destination 135.11.56.76 0 destination-port eq 8080
+ rule 93 permit tcp source address-set hujiaowaibao1 destination 135.10.27.31 0 destination-port eq 9100
+ rule 94 permit tcp source address-set hujiaowaibao1 destination 135.10.27.31 0 destination-port eq 9000
+ rule 95 permit tcp source address-set hujiaowaibao1 destination 135.11.56.76 0 destination-port eq 8443
+ rule 100 permit udp source address-set ntpsrcadress1 destination address-set ntpserver1 destination-port eq ntp
+ rule 110 permit tcp source address-set bank1 destination address-set bankserver1 destination-port range 5001 5020
+ rule 120 deny tcp source address-set bank1 destination address-set bankserver1 destination-port eq 5014
+ rule 130 permit tcp source 10.10.2.10 0 source-port eq 6009 destination 135.10.27.109 0 destination-port eq 6101
+ rule 135 permit tcp source address-set bank1 destination address-set bankserver1 destination-port eq 6101
+ rule 140 permit tcp source address-set bank1 destination address-set bankserver1 destination-port eq 5001
+ rule 143 permit tcp source address-set xiaoyuanhujiaodizi destination 135.10.25.10 0 destination-port port-set xiaoyuanhujiao
+ rule 144 permit tcp source address-set xiaoyuanhujiaodizi destination 135.10.26.87 0 destination-port port-set waibo
+ rule 145 permit tcp source address-set xiaoyuanhujiaodizi destination address-set venus4a destination-port port-set venus4aport
+ rule 146 permit tcp source address-set xiaoyuanhujiaodizi destination 135.10.25.106 0 destination-port eq time
+ rule 150 permit tcp source address-set guiyangzhaohang destination 135.10.27.109 0 destination-port eq 5001
+ rule 155 permit tcp source address-set anshunshanghang destination address-set bankserver1 destination-port eq 6101
+ rule 160 permit tcp source address-set nonghang destination 135.10.27.109 0 destination-port eq 5101
+ rule 170 permit tcp source address-set hujiaowaibao1 destination address-set ntpserver1 destination-port eq time
+ rule 171 permit udp source address-set hujiaowaibao1 destination address-set ntpserver1 destination-port eq time
+ rule 172 permit udp source address-set hujiaowaibao1 destination address-set ntpserver1 destination-port eq ntp
+ rule 175 permit tcp source address-set hujiaowaibao1 destination 135.10.27.31 0 destination-port eq 9600
+ rule 180 permit tcp source address-set hujiaowaibao1 destination 135.10.25.106 0 destination-port eq ftp
+ rule 185 permit tcp source 9.234.3.202 0 destination 135.10.27.109 0 destination-port eq 9001
+ rule 190 permit tcp source address-set hujiaowaibao1 destination address-set recordftp destination-port range ftp-data ftp
+ rule 195 permit tcp source address-set hujiaowaibao1 destination 135.10.25.106 0 destination-port eq 6617
+ rule 200 permit tcp source 10.10.2.11 0 destination 135.10.27.103 0 destination-port eq 42200
+ rule 205 permit tcp source address-set banktest201211 destination 135.10.27.103 0 destination-port port-set portbanktest201211
+ rule 210 permit tcp source address-set nczuoxi destination address-set timeserver destination-port eq time
+ rule 215 permit ip source 10.10.2.62 0   
+ rule 216 permit tcp source 9.234.3.202 0 destination 135.10.27.103 0 destination-port port-set newcrm
+ rule 217 permit tcp source 10.110.0.101 0 destination 135.10.27.103 0 destination-port port-set newcrm
+ rule 218 permit tcp source 16.123.66.15 0 destination 135.10.27.103 0 destination-port eq 42200
+ rule 219 permit tcp source 10.10.30.0 0.0.0.255
+ rule 225 permit tcp source address-set crmkefuwaibaoweb destination address-set crmkefuwaibaoapp destination-port port-set crmwebfangwencrmapp
+ rule 230 permit tcp source address-set crmwaibujiekou destination address-set crmkefuwaibaoapp destination-port port-set crmwebfangwencrmapp
+ rule 235 permit tcp source address-set crmkefuwaibaoweb2 destination address-set crmkefuwaibaoapp2 destination-port port-set crmwebfangwenapp2
+ rule 240 permit tcp source address-set banktest201211 destination address-set banklayer4 destination-port port-set bankport201301
+ rule 245 permit tcp source 11.180.254.1 0.0.0.8 destination 135.10.27.44 0 destination-port eq 44500
+ rule 255 permit tcp source address-set hujiaowaibao1 destination address-set sipserver destination-port port-set sipport
+ rule 256 permit udp source address-set hujiaowaibao1 destination address-set sipserver destination-port eq sip
+ rule 260 permit tcp source address-set hujiaowaibao1 destination address-set messageserver destination-port port-set messageport
+ rule 265 permit tcp source address-set hujiaowaibao1 destination address-set logserver destination-port port-set redisport
+ rule 270 permit tcp source address-set hujiaowaibao1 destination address-set venus4a destination-port port-set venus4aport
+ rule 275 permit tcp source 10.10.1.158 0 destination 135.10.27.44 0 destination-port eq 44000
+ rule 276 permit tcp source 10.10.2.62 0 destination 135.10.27.44 0 destination-port eq 44000
+ rule 277 permit udp destination-port eq dns
+ rule 280 permit tcp source 172.19.1.0 0.0.0.255 destination 135.10.51.89 0 destination-port eq www
+ rule 285 permit tcp source address-set hujiaowaibao1 destination 135.10.25.10 0 destination-port range 9200 9300
+ rule 290 permit tcp source 172.19.0.0 0.0.255.255 destination 135.10.53.51 0 destination-port eq 10000
+ rule 295 permit udp destination-port eq time
+ rule 296 permit tcp destination-port eq time
+ rule 300 permit tcp source address-set hujiaowaibao1 destination 135.10.38.110 0 destination-port eq 10000
+ rule 301 permit tcp source address-set xiaoyuanhujiaodizi destination 135.10.38.110 0 destination-port eq 10000
+ rule 305 permit tcp source address-set hujiaowaibao1 destination 135.11.56.75 0 destination-port eq 8188
+ rule 306 permit tcp source address-set hujiaowaibao1 destination 135.11.56.75 0
+ rule 307 permit tcp source address-set hujiaowaibao1 destination 135.10.52.11 0 destination-port eq www
+ rule 308 permit tcp source address-set hujiaowaibao1 destination 135.10.53.11 0 destination-port eq www
+ rule 309 permit tcp source address-set hujiaowaibao1 destination 135.10.27.43 0 destination-port eq www
+ rule 310 permit tcp source address-set hujiaowaibao1 destination 135.10.52.20 0 destination-port eq www
+ rule 315 permit tcp source address-set hujiaowaibao1 destination 135.10.53.23 0 destination-port eq www
+ rule 319 permit tcp source address-set hujiaowaibao1 destination address-set kefuwas destination-port eq 8443
+ rule 320 permit tcp source address-set hujiaowaibao1 destination 135.10.27.31 0 destination-port eq 10000
+ rule 321 permit tcp source address-set hujiaowaibao1 destination address-set ctlpool1 destination-port eq 8888
+ rule 322 permit udp source address-set hujiaowaibao1 destination address-set ctlpool2 destination-port eq sip
+ rule 323 permit udp source address-set hujiaowaibao1 destination address-set ctlpool3
+ rule 324 permit tcp source address-set hujiaowaibao1 destination address-set kefuwas destination-port eq 8080
+ rule 325 permit tcp source 172.19.7.0 0.0.0.255 destination 135.10.51.8 0 destination-port eq 8085
+ rule 330 permit tcp source 172.19.7.0 0.0.0.255 destination address-set crmkefuwaibaoweb2 destination-port port-set kefuwaibaoweb2port
+ rule 335 permit tcp source 172.19.7.0 0.0.0.255 destination 135.10.53.15 0 destination-port eq www
+ rule 340 permit tcp source 10.110.0.101 0 destination 135.10.27.103 0 destination-port eq 44501
+ rule 345 permit tcp source 10.10.2.11 0 destination 135.10.27.103 0 destination-port eq 44501
+ rule 350 permit tcp source 16.123.66.15 0 destination 135.10.27.103 0 destination-port eq 44501
+ rule 355 permit tcp source 172.19.9.0 0.0.0.255 destination 135.11.47.33 0
+ rule 360 permit tcp source address-set hujiaowaibao1 destination 135.10.53.66 0 destination-port eq 8081
+ rule 365 permit tcp source 172.19.11.0 0.0.0.255 destination 135.10.26.60 0 destination-port eq 8080
+ rule 370 permit tcp source 172.19.11.0 0.0.0.255 destination 10.198.3.5 0 destination-port eq 1860
+ rule 375 permit tcp source 192.168.45.240 0 destination 135.10.27.103 0 destination-port eq 44501
+ rule 380 permit tcp source 199.198.18.10 0 destination 135.10.27.103 0 destination-port eq 44501
+ rule 385 permit tcp source 199.198.18.10 0 destination 135.10.27.44 0 destination-port eq 44500
+ rule 390 permit tcp source 199.198.18.10 0 destination 135.10.27.106 0 destination-port eq ftp
+ rule 395 permit tcp source address-set hujiaowaibao1 destination 135.10.27.13 0 destination-port eq www
+ rule 400 permit tcp source address-set hujiaowaibao1 destination 135.10.27.121 0 destination-port eq 8080
+ rule 405 permit tcp source address-set hujiaowaibao1 destination 135.10.27.122 0 destination-port eq 8080
+ rule 901 permit icmp
+acl number 3504
+ description trust-->untrust
+ rule 0 permit tcp source address-set bankserver1 destination address-set bank1 destination-port range ftp-data ftp
+ rule 10 permit tcp source address-set kefu1 destination address-set hujiaowaibao1 destination-port eq 8888
+ rule 20 permit udp source address-set kefu1 destination address-set hujiaowaibao1
+ rule 21 permit tcp source address-set kefu2 destination address-set hujiaowaibao1
+ rule 30 permit tcp source 135.10.27.109 0 destination 10.108.202.56 0 destination-port eq 8080
+ rule 35 permit tcp source address-set audit4a1 destination address-set ne20pass destination-port eq telnet
+ rule 40 permit tcp source address-set whiltelist1 destination address-set ne20pass destination-port eq telnet
+ rule 45 permit tcp source address-set bankserver1 destination 9.234.21.83 0 destination-port eq 20001
+ rule 50 permit tcp source address-set bankserver1 destination 9.234.21.84 0 destination-port eq 20001
+ rule 55 permit tcp source address-set bankserver1 destination 9.234.21.86 0 destination-port eq ftp
+ rule 60 permit tcp source address-set bankserver1 destination address-set bank1 destination-port eq 6009
+ rule 901 permit icmp
+ rule 902 permit ip
+acl number 3505
+ description local-->untrust
+ rule 0 permit ip
+acl number 3506
+ description untrust-->local
+ rule 99999 deny ip
+acl number 3530
+#
+ sysname GZGY-JY-BOSS-E1000E-01
+#
+ super password level 3 cipher J:18JQ]8&"5UIM;GUL")0Q!!
+#
+ info-center source default channel 2 log level debugging trap state off
+ info-center loghost source Vlanif4019
+ info-center loghost type linux
+ info-center loghost 135.10.38.55 facility local4
+ info-center loghost 135.10.38.149 facility local4
+ info-center loghost 135.10.29.200 facility local4
+ info-center logbuffer size 514
+#                                         
+ firewall session aging-time tcp 30
+ firewall session aging-time udp 30
+ firewall session aging-time esp 30
+ firewall session aging-time gre 30
+ firewall session aging-time h225 30
+ firewall session aging-time h245 30
+ firewall session aging-time h323-rtcp 30
+ firewall session aging-time h323-rtp 30
+ firewall session aging-time h323-t120 30
+ firewall session aging-time netbios-name 30
+ firewall session aging-time netbios-session 30
+ firewall session aging-time netbios-data 30
+ firewall session aging-time ftp 30
+ firewall session aging-time ftp-data 30
+ firewall session aging-time hwcc 30
+ firewall session aging-time ras 30
+ firewall session aging-time ils 30
+ firewall session aging-time http 30
+ firewall session aging-time smtp 30
+ firewall session aging-time rtsp 30
+ firewall session aging-time rtcp 30
+ firewall session aging-time rtp 30       
+ firewall session aging-time gtp 30
+ firewall session aging-time dns 30
+ firewall session aging-time sip 30
+ firewall session aging-time pptp 30
+ firewall session aging-time QQ 30
+ firewall session aging-time stun 30
+ firewall session aging-time sip-rtp 30
+ firewall session aging-time sip-rtcp 30
+ firewall session aging-time mgcp 30
+ firewall session aging-time mgcp-rtp 30
+ firewall session aging-time mgcp-rtcp 30
+ firewall session aging-time sqlnet 30
+ firewall session aging-time sqlnet-data 30
+ firewall session aging-time rpc 30
+ firewall session aging-time rpc-data 30
+#
+ firewall statistic system enable
+ undo firewall session link-state check
+#
+vlan 4019
+ description TO-Management
+#
+interface Vlanif4019                      
+ description TO-Management
+ ip address 135.31.33.42 255.255.255.248
+#
+interface GigabitEthernet0/0/0
+ description TO-[GZGY-JY-BOSS-S9303-01]-G1/0/1
+ link-group 1
+ portswitch
+ port default vlan 4019
+#
+interface GigabitEthernet0/0/1
+ description TO-[GZGY-JY-BOSS-NE20E-01]-G4/0/1
+ link-group 1
+ portswitch
+ port default vlan 4019
+#
+interface GigabitEthernet0/0/2
+ description TO-[GZGY-JY-BOSS-NE40-X3-01]
+ portswitch
+ port default vlan 4019
+#
+interface GigabitEthernet0/0/3
+ shutdown                                 
+#
+interface GigabitEthernet1/0/0
+ shutdown
+#
+interface GigabitEthernet1/0/1
+ shutdown
+#
+interface GigabitEthernet2/0/0
+ shutdown
+#
+interface GigabitEthernet2/0/1
+ shutdown
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 135.10.27.244 255.255.255.255
+#
+firewall zone local
+ set priority 100
+#
+firewall zone trust                       
+ set priority 85
+ add interface GigabitEthernet0/0/0
+#
+firewall zone untrust
+ set priority 5
+ add interface GigabitEthernet0/0/1
+ add interface GigabitEthernet0/0/2
+#
+firewall zone dmz
+ set priority 50
+#
+firewall interzone local trust
+ packet-filter 3501 inbound
+ packet-filter 3502 outbound
+#
+firewall interzone local untrust
+ packet-filter 3506 inbound
+ packet-filter 3505 outbound
+#
+firewall interzone trust untrust
+ packet-filter 3503 inbound
+ packet-filter 3504 outbound
+ detect ftp                               
+ session log enable acl-number 3120 inbound
+ session log enable acl-number 3120 outbound
+#
+aaa
+ local-user iscasmp password cipher (6Q:`<%D:&*%C>J;S/X%^!!!
+ local-user iscasmp service-type ssh
+ local-user iscasmp level 3
+ local-user teamsun password cipher /"#P<CT1ATXGRMESa+W]I!!!
+ local-user teamsun service-type terminal ssh
+ local-user teamsun level 3
+ local-user venustech password cipher O[]76R5P0+FD.1]&5MF]B!!!
+ local-user venustech service-type ssh
+ local-user venustech level 3
+ local-user jyboss password cipher 96R*%,^X:"@X!X<]K3BK;Q!!
+ local-user jyboss service-type terminal ssh
+ local-user jyboss level 3
+ authentication-scheme default
+#
+ authorization-scheme default
+#
+ accounting-scheme default
+#
+ domain default                           
+#
+#
+right-manager server-group
+#
+ ip route-static 0.0.0.0 0.0.0.0 135.31.33.41
+ ip route-static 135.10.27.242 255.255.255.255 135.31.33.43
+#
+ snmp-agent
+ snmp-agent local-engineid 000007DB7F000001000009F4
+ snmp-agent community read  publicinJY
+ snmp-agent sys-info version all
+#
+ ntp-service source-interface LoopBack0
+ ntp-service unicast-server 135.10.26.182 priority
+ ntp-service unicast-server 135.10.26.181
+#
+ ssh server authentication-retries 5
+ ssh user teamsun authentication-type all
+ ssh user jyboss authentication-type all
+ ssh user venustech authentication-type all
+ ssh user iscasmp authentication-type all
+#                                         
+user-interface con 0
+ authentication-mode aaa
+ idle-timeout 3 0
+user-interface vty 0 4
+ acl 3113 inbound
+ authentication-mode aaa
+ idle-timeout 3 0
+ protocol inbound ssh
+#
+return
+<GZGY-JY-BOSS-E1000E-01>              
+<GZGY-JY-BOSS-E1000E-01>
+<GZGY-JY-BOSS-E1000E-01>q

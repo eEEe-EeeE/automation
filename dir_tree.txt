@@ -1,0 +1,49 @@
+D:\WORKSPACE\PYCHARMPROJECTS
+\---automatedtesting
+    |   dir_tree.txt
+    |   README.md
+    |   run_nbp_test.py
+    |
+    +---driver
+    |       chromedriver.exe
+    |       geckodriver.exe
+    |       selenium-server-standalone-3.141.59.jar
+    |
+    +---nbp
+    |   |   __init__.py
+    |   |
+    |   +---data
+    |   +---report
+    |   |   |   2019-05-24 14_22_59result.htm
+    |   |   |
+    |   |   \---image
+    |   |           baidu.png
+    |   |           start.png
+    |   |
+    |   \---test_case
+    |       |   login_sta.py
+    |       |   om_sta.py
+    |       |   __init__.py
+    |       |
+    |       +---models
+    |       |       driver.py
+    |       |       function.py
+    |       |       myunit.py
+    |       |       __init__.py
+    |       |
+    |       \---page_obj
+    |               base_page.py
+    |               login_page.py
+    |               om_config_page.py
+    |               om_device_page.py
+    |               om_patrol_page.py
+    |               __init__.py
+    |               
+    +---package
+    |       README.md
+    |       
+    +---reports
+    \---scripts
+            generate_dir_tree.bat
+            startup.bat
+            

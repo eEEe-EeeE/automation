@@ -1,0 +1,7 @@
+selenium==3.141.0
+html-testRunner==1.2
+xlrd==1.2.0
+pyautogui==0.9.44
+pywinauto==0.6.6
+pyperclip==1.7.0
+
