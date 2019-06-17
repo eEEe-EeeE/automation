@@ -102,7 +102,7 @@ class CaShow(BasePage):
 
             params[0].send_keys(input_row[0])
             params[1].send_keys(input_row[3][6:])
-            params[2].send_keys('多行正则检测')
+            params[2].send_keys('单行正则检测')
             params[3].send_keys('找到')
             params[4].send_keys('高')
 
@@ -127,7 +127,7 @@ class CaShow(BasePage):
 
             params[0].send_keys(input_row[0])
             params[1].send_keys(input_row[3][6:])
-            params[2].send_keys('多行正则检测')
+            params[2].send_keys('单行正则检测')
             params[3].send_keys('找到')
             params[4].send_keys('高')
 
