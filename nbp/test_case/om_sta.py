@@ -1,8 +1,5 @@
-from time import sleep
 import unittest
-import random
-import sys
-from nbp.test_case.models import myunit, function
+from nbp.test_case.models import myunit
 from nbp.test_case.page_obj.login_page import Login
 from nbp.test_case.page_obj.om_device_page import OmDevice
 from nbp.test_case.page_obj.om_patrol_page import OmPatrol
