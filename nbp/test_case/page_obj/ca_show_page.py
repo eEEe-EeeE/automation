@@ -29,6 +29,9 @@ class CaShow(BasePage):
     __ca_show_config_insert_loc = (By.XPATH, '/html/body/div/div[2]/div/div/div[1]/div/button')
 
     #
+    __ca_show_config_edit_loc = (By.XPATH, '/html/body/div/div[2]/div/div/div[2]/div[2]/div[1]/div[2]/span[1]/i')
+
+    #
     __ca_show_config_insert_standard_loc = (By.XPATH, '//div/div[2]/div/div[1]/div/div[2]/div/div[1]/div[1]/input')
 
     #
@@ -41,7 +44,7 @@ class CaShow(BasePage):
     __ca_show_config_insert_add_loc = (By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div[2]/div/div[4]/span')
 
     #
-    __ca_show_config_insert_confirm_loc = (By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div[3]/button')
+    __ca_show_config_confirm_loc = (By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div[3]/button')
 
     # Locator
 
@@ -57,6 +60,9 @@ class CaShow(BasePage):
     def __ca_show_config_insert(self):
         return self.find_element(*self.__ca_show_config_insert_loc)
 
+    def __ca_show_config_edit(self):
+        return self.find_element(*self.__ca_show_config_edit_loc)
+
     def __ca_show_config_insert_standard(self):
         return self.find_element(*self.__ca_show_config_insert_standard_loc)
 
@@ -66,8 +72,8 @@ class CaShow(BasePage):
     def __ca_show_config_insert_add(self):
         return self.find_element(*self.__ca_show_config_insert_add_loc)
 
-    def __ca_show_config_insert_confirm(self):
-        return self.find_element(*self.__ca_show_config_insert_confirm_loc)
+    def __ca_show_config_confirm(self):
+        return self.find_element(*self.__ca_show_config_confirm_loc)
 
     # Action
 
@@ -82,21 +88,21 @@ class CaShow(BasePage):
         # 输入数据是列表的列表，外层列表是所有行，内层列表是每一行的数据
         sheet_info = function.read_data(
             0,
-            r'C:\Users\someone\Documents\WeChat Files\c1505438001\FileStorage\File\2019-06\思科华为合规项.xlsx')
+            r'C:\Users\someone\Documents\WeChat Files\c1505438001\FileStorage\File\2019-06\思科华为合规项.xlsx'
+        )
 
-        # Cisco
+        # 等保2.0
         time.sleep(1)
-        self.__ca_show_config_insert().click()
-        cisco = sheet_info[:45]
+        self.__ca_show_config_edit().click()
 
-        self.__ca_show_config_insert_standard().send_keys('等保2.0配置核查--Cisco')
+        existing_item_num = len(self.__ca_show_config_insert_items())
 
-        for _ in range(len(cisco) - 1):
+        for _ in range(len(sheet_info)):
             self.__ca_show_config_insert_add().click()
 
-        index = 0
+        index = 0 + existing_item_num
         # 遍历xlsx的输入数据，填表单
-        for input_row in cisco:
+        for input_row in sheet_info:
             items = self.__ca_show_config_insert_items()
             params = items[index].find_elements(*self.__ca_show_config_insert_items_params_loc)
 
@@ -108,30 +114,6 @@ class CaShow(BasePage):
 
             index += 1
 
-        self.__ca_show_config_insert_confirm().click()
+        self.__ca_show_config_confirm().click()
 
-        # Hua Wei
-        time.sleep(1)
-        self.__ca_show_config_insert().click()
-        huawei = sheet_info[45:]
-
-        self.__ca_show_config_insert_standard().send_keys('等保2.0配置核查--HuaWei')
-
-        for _ in range(len(huawei) - 1):
-            self.__ca_show_config_insert_add().click()
-
-        index = 0
-        for input_row in huawei:
-            items = self.__ca_show_config_insert_items()
-            params = items[index].find_elements(*self.__ca_show_config_insert_items_params_loc)
-
-            params[0].send_keys(input_row[0])
-            params[1].send_keys(input_row[3][6:])
-            params[2].send_keys('单行正则检测')
-            params[3].send_keys('找到')
-            params[4].send_keys('高')
-
-            index += 1
-
-        self.__ca_show_config_insert_confirm().click()
         time.sleep(3)

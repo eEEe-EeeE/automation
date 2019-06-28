@@ -1,5 +1,3 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -124,7 +122,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -195,15 +192,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 reports/
-.idea/automatedtesting.iml
-.idea/encodings.xml
-.idea/inspectionProfiles/
-.idea/markdown-exported-files.xml
-.idea/markdown-navigator.xml
-.idea/markdown-navigator/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
 nbp/report/
 package/python-3.6.8-amd64.exe
 package/python-3.6.8.exe
+.idea/
